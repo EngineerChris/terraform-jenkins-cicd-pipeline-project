@@ -2,6 +2,7 @@
 
 ## Terraform CI/CD Automation With Jenkins
 ###### Project ToolBox 🧰
+Below are the tools implemented :
 - [Git](https://git-scm.com/) Git will be used to manage our application source code.
 - [Github](https://github.com/) Github is a free and open source distributed VCS designed to handle everything from small to very large projects with speed and efficiency
 - [Jenkins](https://www.jenkins.io/) Jenkins is an open source automation CI tool which enables developers around the world to reliably build, test, and deploy their software
@@ -68,8 +69,8 @@
       ![SlackConfig!](https://github.com/awanmbandi/realworld-cicd-pipeline-project/raw/zdocs/images/Screen%20Shot%202023-04-26%20at%202.08.55%20PM.png)
 
 5) Install Plugins
-- Snyk 
-- Slack
-- Blue Ocean
-- Pipeline: Stage View
+- Snyk Security -   Test testing code depencies for vulnerability against Snyk Database
+- Slack Notification - Integrate Jenkins to Slack, allows publishing build statuses, messages files to Slack channels.
+- Blue Ocean  - For pipeline stage view
+- Pipeline: Stage View - For pipeline stage view. This is similar to Blue Ocean, but unlike Blue Ocear, this is native to jenkins.
 
