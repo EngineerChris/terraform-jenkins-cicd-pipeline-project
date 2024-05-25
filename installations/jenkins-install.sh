@@ -26,7 +26,7 @@ nvm install 15.0.0
 node -e "console.log('Running Node.js ' + process.version)"
 npm --version
 
-# Installing Snyk
+# Install the Snyk CLI globally on the Jenkins server using npm
 npm install -g snyk
 
 # Installing Checkov
